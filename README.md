@@ -1,6 +1,8 @@
 # kafka-security
 This example configures Kafka to use TLS/SSL with client connections. You can also choose to have Kafka use TLS/SSL to communicate between producer & consumer.
 
+in example using docker image Bitnami at : https://hub.docker.com/r/bitnami/kafka
+
 ## Topology
 
 <img src="./topology.png">
