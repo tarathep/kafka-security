@@ -88,11 +88,15 @@ start with docker-compose up in zookeeper, kafka
 docker-compose -f zookeeper.yml up -d
 ```
 
+<img src="./compose/zookeeper.png">
+
 ```sh
 docker-compose -f kafka.yml up -d
 ```
 
-### Step 5: Restart Your Kafka Cluster
+<img src="./compose/kafka.png">
+
+### Step 5: Try Client Connect to Kafka
 
 start node producer , & consumer
 
@@ -118,7 +122,7 @@ var kafkaClientOption = {
 var client = new kafka.KafkaClient(kafkaClientOption);
 ```
 
-Run Apps
+Run Client Apps
 
 ```sh
 node producer.js
